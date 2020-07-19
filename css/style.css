@@ -1,0 +1,366 @@
+/**********************************************************
+Global Styles
+**********************************************************/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: ghostwhite;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#pTag {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+/**********************************************************
+Landing Page
+**********************************************************/
+body header {
+    background-color: beige;
+}
+
+body header h1 {
+    margin: 0px;
+    padding: 30px;
+    color: brown;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main-btn {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    width: 20%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: brown;
+    background-color: beige;
+    border: 1px solid brown;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.main-btn:hover {
+    color: beige;
+    background-color: brown;
+    cursor: pointer;
+}
+
+#question-searched {
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    padding: 7px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 10%;
+    margin: 5px;
+    padding: 7px;
+    font-size: 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: wheat;
+    color: brown;
+    cursor: pointer;
+}
+
+/**********************************************************
+Footer
+**********************************************************/
+footer {
+    background-color: beige;
+    padding: 10px;
+    margin: 0px;
+}
+
+.footer-content {
+    width: 30%;
+    margin: 0% 1.5% 0% 1.5%;
+    display: inline-block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+
+.footer-content i {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.footer-content a {
+    color: black;
+}
+
+.footer-content a:hover {
+    color: brown;
+}
+
+#headlit {
+    color: brown !important;
+}
+
+.copyrights {
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+/**********************************************************
+Ask Question
+**********************************************************/
+#question-asked {
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+    padding: 7px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+#submit-ask {
+    margin-left: 45%;
+    margin-bottom: 8%;
+}
+
+/**********************************************************
+Answer Question
+**********************************************************/
+
+/**********************************************************
+About
+**********************************************************/
+.about {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.about h1 {
+    padding-left: 10px;
+    border-left: 3px solid brown;    
+}
+
+.about h1,h2,h4 {
+    font-family: sans-serif;
+}
+
+.about p {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.about ul {
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+/**********************************************************
+Contact
+**********************************************************/
+.contact {
+    min-height: 55vh;
+}
+
+.contact h1 {
+    font-family: sans-serif;
+    padding-left: 10px;
+    border-left: 3px solid brown;
+}
+
+.contact-info {
+    width: 50%;
+    margin-top: 10vh;
+    margin-left: 25%;
+    border: 1px solid brown;
+    border-radius: 10px;
+    font-family: Calibri;
+}
+
+.contact-info p {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.contact ul {
+    text-align: justify;
+}
+
+.contact a {
+    color: brown;
+}
+
+/*******************************************************
+Media Queries
+*******************************************************/
+@media screen and (max-width: 1024px) {
+    /************************
+    Global Styles
+    ************************/
+    body {
+        min-height: 100%;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    #pTag {
+        font-size: 15px;
+    }
+
+    /************************
+    Landing Page
+    ************************/
+    .landing {
+        min-height: 70vh;
+    }
+
+    body header h1 {
+        padding: 10px;
+    }
+
+    .main-btn {
+        margin-top: 10%;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    #question-searched {
+        width: 90%;
+        margin: 5px 5px 10px 5px;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+
+    .submit-btn {
+        width: 30%;
+        margin: 2% 35% 55% 35% !important;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    /************************
+    Footer
+    ************************/
+    footer {
+        padding: 5px;
+    }
+
+    .footer-content {
+        margin: 3px;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+    .footer-content h4 {
+        font-size: 13px;
+    }
+
+    .footer-content i {
+        font-size: 13px;
+    }
+
+    /************************
+    Ask Questions
+    ************************/
+    .ask {
+        min-height: 70vh;
+    }
+
+    #question-asked {
+        width: 90%;
+        margin: 0% 5% 0% 5%;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    /*************************
+    Answer Question
+    **************************/
+    .answer {
+        min-height: 70vh;
+    }
+
+    /**************************
+    About
+    **************************/
+    .about h1 {
+        font-size: 20px;
+    }
+
+    .about h2 {
+        font-size: 17px;
+    }
+
+    .about h4 {
+        font-size: 15px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about ul {
+        padding: 15px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    /****************************
+    Contact
+    ****************************/
+    .contact {
+        min-height: 70vh;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin-top: 10vh;
+        margin-left: 5%;
+    }
+
+    .contact-info p {
+        font-size: 15px;
+    }
+
+}
+
+
+/********    - By Raghu Sanikommu    *********/
