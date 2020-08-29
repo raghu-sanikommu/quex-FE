@@ -2,6 +2,7 @@
 Global Styles
 **********************************************************/
 body {
+    min-height: 90vh;
     margin: 0px;
     padding: 0px;
     background-color: ghostwhite;
@@ -316,8 +317,8 @@ Media Queries
     .login {
         width: 60%;
         margin-left: 12%;
-        margin-top: 8%;
-        margin-bottom: 8%;
+        margin-top: 12%;
+        margin-bottom: 12%;
     }
 
     .login li {
