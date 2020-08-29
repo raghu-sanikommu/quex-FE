@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/q.png" type="image/png">
-    <title>quex :: login </title>
+    <title>quex :: Home</title>
 </head>
 
 <body>
@@ -17,18 +17,21 @@
             <h1>quex</h1>
         </a>
     </header>
-
-    <section class="login">
-        <ul>
-            <li id="active"> <a href="index.html">Login</a></li>
-            <li> <a href="signup.html">Sign Up</a></li>
-        </ul>
-        <form>
-            <input type="text" placeholder="UserName" required> <br>
-            <input type="password" placeholder="Password" required> <br>
-            <button type="submit">Login</button>
-        </form>
-    </section>
+    
+    <main class="container landing">
+        <button id="ask-button" class="main-btn" onclick="window.location.href='/ask.html'">
+            Ask
+        </button>
+        <button id="answer-button" class="main-btn" onclick="window.location.href='/answer.html'">
+            Answer
+        </button>
+        <br>
+        <input type="text" name="question-searched" id="question-searched"
+        placeholder="Type in the keywords / Question">
+        <button type="submit" id="submit-search" class="submit-btn" onclick="window.location.href='/search.html'">
+            Search
+        </button>
+    </main>
     
     <footer>
         <div class="container">
@@ -63,7 +66,7 @@
                 </h4>
                 <p>Q: <i>411015</i></p>
                 <p>A: <i>850024</i></p>
-            </div>  
+            </div>
             <div class="copyrights">
                 <p>copyrights &copy - <span id="headlit"> quex.com</span></p>
             </div>
