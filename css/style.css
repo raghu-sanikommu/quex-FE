@@ -25,6 +25,26 @@ a {
     margin-bottom: 5%;
 }
 
+#logout-button {
+    float: right;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(255, 55, 55, 0.877);
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: block;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+
+#logout-button:hover {
+    box-shadow: 3px 3px 3px #aaa;
+}
+
 /**********************************************************
 Authentication
 **********************************************************/
@@ -311,6 +331,11 @@ Media Queries
         font-size: 15px;
     }
 
+    #logout-button {
+        font-size: x-small;
+        padding: 5px 8px;
+    }
+
     /************************
     Authentication
     ************************/
@@ -346,15 +371,15 @@ Media Queries
         width: 90%;
         margin: 5px 5px 10px 5px;
         padding: 5px;
-        font-size: 15px;
-        border-radius: 20px;
+        font-size: 17px;
+        border-radius: 10px;
     }
 
     .submit-btn {
         width: 30%;
         margin: 2% 35% 55% 35% !important;
         padding: 5px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     /************************
