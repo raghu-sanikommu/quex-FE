@@ -13,37 +13,6 @@ An organization specific Question and Answer forum.
 ***
 
 
-## Technologies Used
-### For Front-End
-* HTML
-* CSS
-* JavaScript
-
-### For Back-End
-* mongoDB
-* Express JS
-* Node JS
-
-
-## Editor and Tools Used
-* Visual Studio Code
-* Git Bash
-* NPM
-* Heroku CLI
-
-## CSS Plugin Used
-Bootstrap CSS
-
-## Hosting Platform Used
-Heroku
-
-## Database Used
-mongoDB Atlas
-
-
-***
-
-
 ## Reason For The Birth of QUEX
 * Mr.John, a curious homo sapien is a fresher in an organisation '**O**' and on one fine day, a question '**Q**' related to **O** started hitting him.
 * John being a fresher had very few/no connections within **O**. So, he straight away fired up the browser and started searching '**A**' for **Q** related to **O**.
