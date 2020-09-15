@@ -1,4 +1,4 @@
-# quex - The QUestion EXchange forum (Front End)
+# quex - The QUestion EXchange forum
 An organization specific Question and Answer forum.
 > * This repo houses the initial Front-End code written for **quex** and can be experienced [here](https://quex.netlify.app) 
 > * And Final Full-Stack implementation can be experienced [here](https://quex.herokuapp.com)
