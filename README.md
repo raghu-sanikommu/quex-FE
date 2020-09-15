@@ -1,8 +1,7 @@
 # quex - The QUestion EXchange forum (Front End)
 An organization specific Question and Answer forum.
 > * This repo houses the initial Front-End code written for **quex** and can be experienced [here](https://quex.netlify.app) 
->  * And Final Full-Stack implementation can be experienced [here](https://quex.herokuapp.com)
-***
+> * And Final Full-Stack implementation can be experienced [here](https://quex.herokuapp.com)
 
 * **quex** is developed with and idea of increasing productivity of people within an organization and its minimalistic design is what lets users have distraction less access to authenticated content. <br>
 * Users here can put up questions and also find answers to questions, all specific to their organization.
@@ -10,9 +9,9 @@ An organization specific Question and Answer forum.
 
 [Click to view the Front-End of **quex**](https://quex.netlify.app)
 
+
 ***
 
-# quex - The QUestion EXchange forum (Full Stack)
 
 ## Technologies Used
 ### For Front-End
